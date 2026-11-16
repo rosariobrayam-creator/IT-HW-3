@@ -3,59 +3,61 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>[Brayam Rosario] | IT 101 Home Page</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <title>Brayam Rosario | IT 101 Home Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header class="bg-dark text-white py-4">
+  <header class="site-header">
     <div class="container">
-      <h1 class="h3 mb-0">[Brayam Rosario]&rsquo;s Home Page</h1>
+      <h1>Brayam Rosario&rsquo;s Home Page</h1>
     </div>
   </header>
 
-  <main class="container py-5">
+  <main class="container">
 
     <!-- About me: image + two paragraphs -->
-    <section class="row align-items-center g-4 mb-5">
-      <div class="col-md-4 text-center">
-        <img src="profile.svg" alt="Placeholder profile picture" class="img-fluid rounded-circle" width="300" height="300">
+    <section class="about block">
+      <div class="about-photo">
+        <img src="profile.jpg" alt="Illustration of a young Itachi Uchiha from Naruto holding a kunai" class="profile" width="220" height="220">
       </div>
-      <div class="col-md-8">
+      <div class="about-text">
         <h2>About Me</h2>
-        <p>
-          Hi, I&rsquo;m [Brayam Rosario]. I&rsquo;m a [first-year] student at the New Jersey Institute of Technology,
-          majoring in [Information Technology]. I&rsquo;m taking IT 101 to learn how computers, networks, and the web
+        <p class="lead">
+          Hi, I&rsquo;m Brayam Rosario. I&rsquo;m a second-year student at the New Jersey Institute of Technology,
+          majoring in Information Technology. I&rsquo;m taking IT 101 to learn how computers, networks, and the web
           work together, and this site is my Homework 3 project.
         </p>
         <p>
-          Outside of class I enjoy [snowboarding], [hiking], and [sim racing]. After I graduate,
-          I&rsquo;d like to work in [Technology Operations]. I&rsquo;m still learning HTML and CSS, so I&rsquo;ll keep
+          Outside of class I enjoy snowboarding, hiking, and sim racing. After I graduate,
+          I&rsquo;d like to work in Technology Operations. I&rsquo;m still learning HTML and CSS, so I&rsquo;ll keep
           improving this page as the semester goes on.
         </p>
       </div>
     </section>
 
     <!-- Useful external link -->
-    <section class="mb-5">
+    <section class="block">
       <h2>A Useful Website</h2>
-      <p>
-        When I need help with HTML or CSS, I use
-        <a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener">MDN Web Docs</a>.
-        It has clear guides and examples for every web technology.
-      </p>
+      <ul class="row-list">
+        <li>
+          When I need help with HTML or CSS, I use
+          <a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener">MDN Web Docs</a>.
+          It has clear guides and examples for every web technology.
+        </li>
+      </ul>
     </section>
 
     <!-- Links to the other homework pages -->
     <section>
       <h2>Homework 3 Pages</h2>
-      <ul class="list-group">
-        <li class="list-group-item">
+      <ul class="row-list">
+        <li>
           <a href="q2.html">Q2: Why this website is bad</a>
           (includes a link to the
-          <a href="http://arngren.net/" target="_blank" rel="noopener">bad website: Arngren.net</a>)
+          <a href="https://newyork.craigslist.org/" target="_blank" rel="noopener">bad website: Craigslist</a>)
         </li>
-        <li class="list-group-item">
+        <li>
           <a href="extracredit.html">Extra Credit: Web page do&rsquo;s and don&rsquo;ts</a>
         </li>
       </ul>
@@ -63,8 +65,8 @@
 
   </main>
 
-  <footer class="bg-light border-top py-3">
-    <div class="container text-muted small">IT 101 &ndash; Homework 3 &ndash; NJIT</div>
+  <footer class="site-footer">
+    <div class="container">IT 101 &ndash; Homework 3 &ndash; NJIT</div>
   </footer>
 
 </body>
