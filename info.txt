@@ -1,0 +1,16 @@
+IT 101 - Homework 3
+Name: [Your Name]
+UCID: [yourUCID]
+
+Absolute path to homepage (AFS):
+/afs/cad/u/[1st letter of UCID]/[2nd letter of UCID]/[yourUCID]/public_html/index.html
+
+URL for homepage:
+https://web.njit.edu/~[yourUCID]/
+
+Other pages:
+Q2:           https://web.njit.edu/~[yourUCID]/q2.html
+Extra credit: https://web.njit.edu/~[yourUCID]/extracredit.html
+
+Bad website used for Q2: http://arngren.net/
+External useful website on Q1: https://developer.mozilla.org/en-US/
